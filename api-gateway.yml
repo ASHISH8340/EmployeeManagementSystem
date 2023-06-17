@@ -17,9 +17,9 @@ spring:
           uri: lb://Leave
           predicates:
             - Path=/v1/api/**
-  
+
   config:
-    import: optional:config:http://localhost:8085
+    import: optional:configserver:http://localhost:8085
 
 
 
