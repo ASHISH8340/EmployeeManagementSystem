@@ -1,9 +1,9 @@
 server:
-  port: 8084
+  port: 8087
 
 spring:
   application:
-    name: API
+    name: API-GATEWAY
 
   cloud:
     gateway:
